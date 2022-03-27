@@ -22,7 +22,7 @@ export default createStore({
     },
 
     agregardatos(state) {
-      let datos = document.getElementById("tablasIP");
+      let datos = document.getElementById("datos");
       const info = document.createElement("p");
       info.textContent = state.texto;
       datos.appendChild(info);
